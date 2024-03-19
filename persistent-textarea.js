@@ -1,11 +1,8 @@
-
 /*
 //  Persistent Textarea with Automatic Attribute Propagation
 //  By LNSY
 //. https://lnsy.dev
 */
-
-
 
 class PersistentTextarea extends HTMLElement {
   connectedCallback() {
