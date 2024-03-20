@@ -18,10 +18,18 @@ Make sure the script is included in your HTML file. It could be directly placed 
 After including the script, you can start using the `persistent-input` custom element anywhere in your HTML.
 
 ```html
+<script type="module" src="https://lnsy-dev.github.io/persistent-input/persistent-input.js"></script>
 <persistent-input id="uniqueId" type="text" placeholder="Enter Value"></persistent-input>
 ```
 
-**Important**: The `id` attribute is required to uniquely identify each instance of `PersistentInput` for `localStorage`. Ensure that each `persistent-input` has a unique `id`.
+Or, if you want a text area: 
+
+```html
+<script type="module" src="https://lnsy-dev.github.io/persistent-input/persistent-textarea.js"></script>
+<persistent-textarea id="uniqueId2"></persistent-textarea>
+```
+
+**Important**: The `id` attribute is required to uniquely identify each instance of `PersistentInput` and `PersistentTextarea` for `localStorage`. Ensure that each `persistent-input` and `persistent-textarea` has a unique `id`.
 
 ### 3. Customize the Input
 
