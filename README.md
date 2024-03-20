@@ -50,6 +50,9 @@ Example with more attributes:
 
 This component uses modern JavaScript features and Web Components. Ensure your target browsers support these ([Can I use... Web Components](https://caniuse.com/?search=Web%20Components), [Custom Elements](https://caniuse.com/?search=Custom%20Elements)).
 
+## Github
+
+This project is on github: https://github.com/lnsy-dev/persistent-input
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any bugs or additional features you think would make this component more versatile.
